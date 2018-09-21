@@ -7647,7 +7647,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="LED_PRO" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device=""/>
 <part name="P+2" library="supply1" deviceset="VCC" device=""/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
-<part name="SPI2" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device=""/>
+<part name="LED_FED" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device=""/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="BAT1_S" library="ELEC327" deviceset="SWITCH_DPDT" device=""/>
 <part name="P+7" library="supply1" deviceset="VCC" device=""/>
@@ -7686,7 +7686,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <instance part="LED_PRO" gate="A" x="10.16" y="213.36"/>
 <instance part="P+2" gate="VCC" x="-10.16" y="205.74"/>
 <instance part="GND1" gate="1" x="-5.08" y="231.14" rot="R180"/>
-<instance part="SPI2" gate="A" x="45.72" y="157.48"/>
+<instance part="LED_FED" gate="A" x="45.72" y="157.48"/>
 <instance part="GND7" gate="1" x="53.34" y="200.66"/>
 <instance part="BAT1_S" gate="G$1" x="78.74" y="223.52"/>
 <instance part="P+7" gate="VCC" x="93.98" y="233.68"/>
@@ -7751,7 +7751,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="GND1" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="SPI2" gate="A" pin="4"/>
+<pinref part="LED_FED" gate="A" pin="4"/>
 <wire x1="43.18" y1="154.94" x2="38.1" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="154.94" x2="38.1" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="149.86" x2="33.02" y2="149.86" width="0.1524" layer="91"/>
@@ -7829,7 +7829,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="P+7" gate="VCC" pin="VCC"/>
 </segment>
 <segment>
-<pinref part="SPI2" gate="A" pin="1"/>
+<pinref part="LED_FED" gate="A" pin="1"/>
 <wire x1="43.18" y1="162.56" x2="38.1" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="162.56" x2="38.1" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="167.64" x2="33.02" y2="167.64" width="0.1524" layer="91"/>
@@ -7868,7 +7868,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <label x="-53.34" y="124.46" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="SPI2" gate="A" pin="2"/>
+<pinref part="LED_FED" gate="A" pin="2"/>
 <wire x1="43.18" y1="160.02" x2="35.56" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="160.02" x2="35.56" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="162.56" x2="33.02" y2="162.56" width="0.1524" layer="91"/>
@@ -7882,7 +7882,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <label x="-55.88" y="119.38" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="SPI2" gate="A" pin="3"/>
+<pinref part="LED_FED" gate="A" pin="3"/>
 <wire x1="43.18" y1="157.48" x2="35.56" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="157.48" x2="35.56" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="154.94" x2="33.02" y2="154.94" width="0.1524" layer="91"/>

@@ -7669,6 +7669,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="P+4" library="supply1" deviceset="VCC" device=""/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
+<part name="PWR_FED" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7707,6 +7708,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <instance part="GND5" gate="1" x="-25.4" y="96.52" rot="R180"/>
 <instance part="P+4" gate="VCC" x="-48.26" y="71.12" rot="R180"/>
 <instance part="GND8" gate="1" x="-58.42" y="71.12"/>
+<instance part="PWR_FED" gate="A" x="7.62" y="157.48"/>
 </instances>
 <busses>
 </busses>
@@ -7780,6 +7782,10 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="C4" gate="G$1" pin="1"/>
 <wire x1="-58.42" y1="73.66" x2="-58.42" y2="81.28" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="PWR_FED" gate="A" pin="4"/>
+<wire x1="5.08" y1="154.94" x2="0" y2="154.94" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="VCC" class="0">
 <segment>
@@ -7842,6 +7848,10 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="R5" gate="G$1" pin="1"/>
 <pinref part="P+4" gate="VCC" pin="VCC"/>
 <wire x1="-48.26" y1="78.74" x2="-48.26" y2="73.66" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="PWR_FED" gate="A" pin="1"/>
+<wire x1="5.08" y1="162.56" x2="0" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="2P1.1" class="0">

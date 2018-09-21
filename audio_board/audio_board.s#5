@@ -7945,6 +7945,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="-60.96" y1="116.84" x2="-60.96" y2="111.76" width="0.1524" layer="91"/>
 <label x="-60.96" y="114.3" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="7"/>
+<wire x1="-30.48" y1="78.74" x2="-30.48" y2="83.82" width="0.1524" layer="91"/>
+<label x="-30.48" y="83.82" size="1.778" layer="95" rot="R90"/>
+</segment>
 </net>
 <net name="BTTN" class="0">
 <segment>
